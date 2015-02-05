@@ -15,7 +15,8 @@ public class FileOperation {
 			URL httpurl = null;
 			try {
 				System.out.println("yuyifei:" + url);
-				httpurl = new URL("http://gdown.baidu.com/data/wisegame/34c22e79d212844d/baiduyunjishiben.apk");
+				//httpurl = new URL("http://gdown.baidu.com/data/wisegame/34c22e79d212844d/baiduyunjishiben.apk");
+				httpurl = new URL(url);
 			} catch (MalformedURLException e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
